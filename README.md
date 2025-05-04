@@ -7,7 +7,12 @@ The system filters out low-quality and sparse data to focus on meaningful rating
 Designed for both educational and practical use, this project demonstrates key concepts in recommendation systems, including data preprocessing, user-item matrix construction, similarity measurement, and interactive deployment. It’s ideal for anyone interested in building intelligent applications from real data, exploring collaborative filtering, or simply discovering new books.
 Perfect! Here's a continuation of your `README.md` — now including a clear and concise **"How to Run"** section with instructions for cloning, installing, and running the app locally using Streamlit:
 
----
+### 📂 Dataset
+
+The recommender system is built using two core files from a public dataset available on Kaggle: **Books.csv** and **Ratings.csv**. The `Books.csv` file contains detailed metadata about each book, including title, author, publisher, year of publication, and image URLs. The `Ratings.csv` file includes over one million book ratings provided by real users, which serve as the foundation for collaborative filtering.
+
+If you would like to download the original dataset yourself, please visit **[this Kaggle link](https://www.kaggle.com/datasets/arashnic/book-recommendation-dataset?select=Ratings.csv)**. Both `Books.csv` and `Ratings.csv` are available there and are essential to running the recommendation engine effectively.
+
 
 ### 🛠️ How to Run the Project Locally
 
