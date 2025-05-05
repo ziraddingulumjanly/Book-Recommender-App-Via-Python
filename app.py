@@ -5,8 +5,8 @@ from sklearn.metrics.pairwise import cosine_similarity
 # Load and preprocess data
 @st.cache_data
 def load_data():
-    books = pd.read_csv("recCSVs/Books.csv").drop(columns=['Image-URL-S', 'Image-URL-M'])
-    ratings = pd.read_csv("recCSVs/Ratings.csv")
+    books = pd.read_csv("Books50.csv").drop(columns=['Image-URL-S', 'Image-URL-M'])
+    ratings = pd.read_csv("Ratings.csv")
 
     # Filter out ratings <= 2
     ratings = ratings[ratings['Book-Rating'] > 2]
