@@ -1,4 +1,5 @@
 # 📚 Book Recommender System
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://book-recommender-app-via-python-wnkubfmbrwnqvgw7kas5hq.streamlit.app/)
 
 This project is an interactive **Book Recommender System** built using **Python** and **Streamlit**, based on a collaborative filtering approach. It leverages real-world user ratings data to suggest books that are similar to a selected title, using **cosine similarity** between user rating vectors. The underlying dataset includes detailed metadata such as book titles, authors, publication years, publishers, and even cover image URLs, enabling both analytical and visual exploration.
 
